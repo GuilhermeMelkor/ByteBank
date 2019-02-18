@@ -7,3 +7,4 @@ C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.c
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
+C:\Projetos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.xml

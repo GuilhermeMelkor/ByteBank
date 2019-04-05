@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ByteBank.Modelos;
-using Humanizer;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -12,14 +6,11 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            DateTime dtFimPagto = new DateTime(2017,02,18);
-            DateTime dtCorrente = DateTime.Now;
+            string url = "pagina?argumentos";
+            int indiceInterrogacao = url.IndexOf('?');
+            string argumentos = url.Substring(indiceInterrogacao+1);
+            Console.WriteLine(argumentos);
 
-            TimeSpan diferenca = dtFimPagto - dtCorrente;
-
-            Console.WriteLine(diferenca.Humanize(2));
-            Console.WriteLine(diferenca.Humanize(3));
-            Console.WriteLine(diferenca.Humanize(4));
             Console.ReadLine();
         }
     }

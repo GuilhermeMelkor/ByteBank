@@ -7,3 +7,13 @@ C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.c
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
 C:\Projetos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe.config
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.pdb
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.dll
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csprojAssemblyReference.cache
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
+C:\Users\guilh\Source\Repos\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb

@@ -1,6 +1,5 @@
 ﻿using ByteBank.Modelos;
 using System;
-using System.Text.RegularExpressions;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -8,43 +7,33 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            //string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
-            //string padrao = "[0-9]{4,5}-?[0-9]{4}";
 
 
-            //string texto = "Meu número é: 923423453";
+            ListaDeContaCorrente lista = new ListaDeContaCorrente();
 
-            //Match match = Regex.Match(texto, padrao);
-            //Console.WriteLine(match.Value);
+            ContaCorrente contaGui = new ContaCorrente(111,11111);
 
+            lista.Adicionar(contaGui);
+            lista.Adicionar(new ContaCorrente(345, 23462));
+            lista.Adicionar(new ContaCorrente(363, 22451));
+            lista.Adicionar(new ContaCorrente(735, 23552));
+            lista.Adicionar(new ContaCorrente(345, 23462));
+            lista.Adicionar(new ContaCorrente(363, 22451));
+            lista.Adicionar(new ContaCorrente(735, 23552));
+            lista.EscreverListaNaTela();
+            lista.Remover(contaGui);
+            Console.WriteLine("Item removido");
+            lista.EscreverListaNaTela();
 
-            //string url = "www.bytebank.com/cambio?origem=real&destino=dolar&valor=1500";
+            //int[] idades = new int[] {15,28,35,50,28};
 
-            //ExtratorValorDeArgumentosURL extrator = new ExtratorValorDeArgumentosURL(url);
-
-            //Console.WriteLine(extrator.GetValor("origem"));
-            //Console.WriteLine(extrator.GetValor("destino"));
-            //Console.WriteLine(extrator.GetValor("valor"));
-
-
-            ContaCorrente contaCorrente = new ContaCorrente(342, 37652);
-            Console.WriteLine(contaCorrente);
-
-            Cliente carlos_1 = new Cliente();
-            carlos_1.Nome = "Carlos";
-            carlos_1.CPF = "458.623.120-03";
-            carlos_1.Profissao = "Designer";
-
-            Cliente carlos_2 = new Cliente();
-            carlos_2.Nome = "Carlos";
-            carlos_2.CPF = "458.623.120-03";
-            carlos_2.Profissao = "Designer";
-
-            if (carlos_1.CPF.Equals(carlos_2.CPF))
-            {
-                Console.WriteLine("São iguais!");
-            }
-
+            //int acumulador = 0;
+            //for (int indice = 0; indice < idades.Length; indice++)
+            //{
+            //    acumulador += idades[indice];
+            //}
+            //int media = acumulador / idades.Length;
+            //Console.WriteLine($"A media eh de {media}");
 
             Console.ReadLine();
         }

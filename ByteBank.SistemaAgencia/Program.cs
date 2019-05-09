@@ -1,5 +1,6 @@
 ﻿using ByteBank.Modelos;
 using System;
+using System.Collections.Generic;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -7,39 +8,24 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            Lista<int> idades = new Lista<int>();
+            List<int> idades = new List<int>();
 
-            idades.AdicionarVarios(1, 15, 51, 56);
-            idades.Remover(15);
-            idades.EscreverListaNaTela();
-            Lista<string> cursos = new Lista<string>();
-            cursos.AdicionarVarios("C# Parte 1", "C# Parte 2", "C# Parte 3");
-            cursos.EscreverListaNaTela();
+            idades.AdicionarVarios(1, 8, 78, 45, 49);
 
-            Lista<ContaCorrente> contas = new Lista<ContaCorrente>();
-            contas.AdicionarVarios(new ContaCorrente(124, 54354), new ContaCorrente(201, 44354));
-            contas.EscreverListaNaTela();
+            //idades.Add(1);
+            //idades.Add(5);
+            //idades.Add(68);
+            //idades.Add(84);
+            //idades.Add(32);
+            //idades.Add(48);
+            //idades.Add(86);
 
-            //ListaDeContaCorrente lista = new ListaDeContaCorrente();
+            //idades.Remove(5);
 
-            //ContaCorrente contaGui = new ContaCorrente(111, 11111);
-
-            //lista.AdicionarVarios(
-            //    new ContaCorrente(100, 40010),
-            //    new ContaCorrente(101, 40011),
-            //    new ContaCorrente(102, 40012),
-            //    new ContaCorrente(103, 40013)
-            //);
-            //lista.EscreverListaNaTela();
-            //lista.Remover(contaGui);
-            //Console.WriteLine("Item removido");
-            //lista.EscreverListaNaTela();
-
-            //for (int i = 0; i < lista.tamanho; i++)
-            //{
-            //    ContaCorrente conta = lista[i];
-            //    Console.WriteLine($"{conta.Agencia}/{conta.Numero}");
-            //}
+            for (int i = 0; i < idades.Count; i++)
+            {
+                Console.WriteLine(idades[i]);
+            }
 
             Console.ReadLine();
         }

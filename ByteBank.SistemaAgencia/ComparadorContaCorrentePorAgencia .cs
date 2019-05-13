@@ -26,17 +26,19 @@ namespace ByteBank.SistemaAgencia
                 return -1;
             }
 
-            if (x.Agencia < y.Agencia)
-            {
-                return -1; // X fica na frente de Y
-            }
+            return x.Agencia.CompareTo(y.Agencia);
 
-            if (x.Agencia == y.Agencia)
-            {
-                return 0; // São equivalentes
-            }
+            //if (x.Agencia < y.Agencia)
+            //{
+            //    return -1; // X fica na frente de Y
+            //}
 
-            return 1;
+            //if (x.Agencia == y.Agencia)
+            //{
+            //    return 0; // São equivalentes
+            //}
+
+            //return 1;
         }
     }
 }
